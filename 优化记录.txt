@@ -1,0 +1,6 @@
+1.针对元素定位进行优化，对定位方法使用定义
+2.重构——分层优化，将代码分为三部分，function.py用于定义功能；booking_tikets用于完成测试
+3.重构——三层架构：基础代码层：function.py;业务代码层：search_tickets.py;测试代码层：booking_tickets.py
+4.优化--时间智能等待，但是有些地方必须设置强制等待，否则会出现错误，执行时间10S
+5.优化--数据驱动测试，日志添加
+6.抽象——使用htmlteeestrunner生成测试报告
